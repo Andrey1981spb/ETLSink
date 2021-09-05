@@ -1,0 +1,12 @@
+
+Старт lsyncd:
+sudo /etc/init.d/lsyncd start
+
+Ноды"Демонов" для перекладки сообщения и ответа запускаются (из корня файловой системы ОС) В РАЗНЫХ ТЕРМИНАЛАХ скриптами:
+
+1. Для перекладки сообщения из внешнего контура
+sudo lsyncd -nodaemon etc/lsyncd/lsyncd.config
+
+2. Для перекладки ответа из внутреннего контура
+sudo lsyncd -nodaemon etc/lsyncd/lsyncd_inner.config
+

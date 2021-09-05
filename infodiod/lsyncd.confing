@@ -1,0 +1,20 @@
+settings {
+         logfile = "/var/log/lsyncd/lsyncd.log",
+         statusFile = "/var/log/lsyncd/lsyncd.status",
+         statusInterval = 5,
+         -- insist = true,
+         nodaemon   = true
+}
+
+   sync {
+        default.rsync,
+        delete = false,
+        delay = 3,
+        source = "/home/andrej/IdeaProjects/infodiod/public/outbox",
+        target = "/home/andrej/IdeaProjects/infodiod/internal/inbox",
+         rsync = {
+          archive = true,
+          compress = true,
+      }
+}
+

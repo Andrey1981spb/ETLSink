@@ -1,0 +1,7 @@
+{
+  "Date": "2020-12-18",
+  "Operation": "expenditure",
+  "Amount": 500,
+  "Item_of_expenditure": "some goods",
+  "Balance": 500
+}
