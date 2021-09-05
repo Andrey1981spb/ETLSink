@@ -2,7 +2,7 @@
 
 1. Добавить файл с настройками gradle.properties
 
-⋅⋅* **mavenUser**, **mavenPassword** - логин и пароль от репозитория Восхода
+⋅⋅* **mavenUser**, **mavenPassword** - логин и пароль от репозитория 
 
 ⋅⋅* **coverageLimit** - доля минимального покрытия тестами
 
