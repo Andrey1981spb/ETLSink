@@ -1,0 +1,3 @@
+rootProject.name = 'InfoDiodeSink'
+apply from: "$rootDir/config/gradle/baseSettings.gradle"
+
