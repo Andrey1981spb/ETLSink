@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package ru.spb.geoservice.model;
+
+import "google/protobuf/timestamp.proto";
+
+message GeoPoint {
+    int32 id = 1;
+    int32 latitude = 2;
+    int32 longitude = 3;
+    google.protobuf.Timestamp time = 4;
+}
+

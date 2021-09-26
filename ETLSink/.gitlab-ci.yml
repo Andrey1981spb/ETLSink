@@ -1,3 +1,0 @@
-include:
-  - project: 'epp1/integration-dataflow/config'
-    file: '.gitlab-ci-template.yml'
